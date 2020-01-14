@@ -1,0 +1,617 @@
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%
+}
+
+details,
+main {
+    display: block
+}
+
+h1 {
+    font-size: 2em
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible
+}
+
+code,
+kbd,
+pre,
+samp {
+    font-family: monospace, monospace;
+    font-size: 1em
+}
+
+a {
+    background-color: transparent
+}
+
+abbr[title] {
+    border-bottom: none;
+    text-decoration: underline;
+    -webkit-text-decoration: underline dotted;
+    text-decoration: underline dotted
+}
+
+b,
+strong {
+    font-weight: bolder
+}
+
+small {
+    font-size: 80%
+}
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+}
+
+sub {
+    bottom: -.25em
+}
+
+sup {
+    top: -.5em
+}
+
+img {
+    border-style: none
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0
+}
+
+button,
+input {
+    overflow: visible
+}
+
+button,
+select {
+    text-transform: none
+}
+
+[type=button],
+[type=reset],
+[type=submit],
+button {
+    -webkit-appearance: button
+}
+
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner,
+button::-moz-focus-inner {
+    border-style: none;
+    padding: 0
+}
+
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring,
+button:-moz-focusring {
+    outline: ButtonText dotted 1px
+}
+
+fieldset {
+    padding: .35em .75em .625em
+}
+
+legend {
+    box-sizing: border-box;
+    color: inherit;
+    display: table;
+    max-width: 100%;
+    padding: 0;
+    white-space: normal
+}
+
+progress {
+    vertical-align: baseline
+}
+
+textarea {
+    overflow: auto
+}
+
+[type=checkbox],
+[type=radio] {
+    box-sizing: border-box;
+    padding: 0
+}
+
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+    height: auto
+}
+
+[type=search] {
+    -webkit-appearance: textfield;
+    outline-offset: -2px
+}
+
+[type=search]::-webkit-search-decoration {
+    -webkit-appearance: none
+}
+
+::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    font: inherit
+}
+
+summary {
+    display: list-item
+}
+
+[hidden],
+template {
+    display: none
+}
+
+@font-face {
+    font-family: 'Courier New PSMT';
+    src: local("Courier New PSMT"), url(https://nomail.com.ua/files/woff/c0c5da1c358fca56b1cd5b2fec5cb0cc.woff) format("woff")
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+    margin: 0;
+    padding: 0
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-left: .9375rem;
+    padding-right: .9375rem
+}
+
+.header {
+    width: 100%;
+    height: 224px;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between
+}
+
+.header__item {
+    width: 30%
+}
+
+.header__logo {
+    background: url(../img/header/logo.png) no-repeat
+}
+
+.header__title {
+    background: url(../img/header/title.png) -5px 105px no-repeat
+}
+
+.header__shtamp {
+    background: url(../img/header/shtamp.png) no-repeat
+}
+
+.footer__date {
+    width: 100%;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: end;
+    align-items: flex-end
+}
+
+.footer__date-title {
+    color: #2f1b15;
+    font-family: "PT Sans";
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 49.83px;
+    margin-right: 20px
+}
+
+.footer__date-cell {
+    background: url(../img/personal-info/input-underline.png) -20px 15px no-repeat;
+    background-size: cover;
+    padding-left: 10px
+}
+
+.footer__date-value {
+    color: #231f20;
+    font-family: "Courier New PSMT";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    border: none;
+    background-color: transparent;
+    padding-bottom: 10px
+}
+
+input[type=date]::-webkit-clear-button {
+    display: none
+}
+
+input[type=date]::-ms-clear {
+    display: none
+}
+
+input[type=date]::-webkit-inner-spin-button {
+    display: none
+}
+
+input[type=date]::-webkit-calendar-picker-indicator {
+    display: none
+}
+
+.personal-info {
+    margin-bottom: 70px
+}
+
+.personal-info__item {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: end;
+    align-items: flex-end;
+    width: 100%;
+    margin-top: 20px
+}
+
+.personal-info__item-title {
+    color: #2f1b15;
+    font-family: "PT Sans";
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 49.83px;
+    white-space: nowrap;
+    margin-right: 20px
+}
+
+.personal-info__input {
+    color: #231f20;
+    font-family: "Courier New PSMT";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    background-image: url(../img/personal-info/input-underline.png);
+    background-position: -16px 12px;
+    background-size: cover;
+    background-repeat: round;
+    padding-bottom: 20px;
+    padding-left: 15px
+}
+
+.personal-info__input::-webkit-input-placeholder {
+    color: #231f20;
+    font-family: "Courier New PSMT";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px
+}
+
+.checkboxes {
+    margin-bottom: 50px
+}
+
+.checkboxes__title {
+    color: #2f1b15;
+    font-family: "PT Sans";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 49.83px
+}
+
+.checkboxes__text {
+    color: #3d3d3d;
+    font-family: "PT Sans";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    margin-bottom: 35px
+}
+
+.checkboxes__items {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 340px
+}
+
+.checkboxes__item {
+    width: 33%;
+    margin-bottom: 20px
+}
+
+input[type=checkbox] {
+    display: none
+}
+
+input[type=checkbox]+label span {
+    display: inline-block;
+    width: 24px;
+    height: 28px;
+    margin: -1px 4px 0 0;
+    vertical-align: middle;
+    background: url(../img/checkboxes/check-box.png) -1px -6px no-repeat;
+    cursor: pointer
+}
+
+input[type=checkbox]:checked+label span {
+    background: url(../img/checkboxes/checker.png) -1px -6px no-repeat
+}
+
+.js-level {
+    margin-bottom: 60px
+}
+
+.js-level__title {
+    color: #2f1b15;
+    font-family: "PT Sans";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 49.83px;
+    margin-bottom: 25px
+}
+
+.js-level__ruler {
+    width: 100%;
+    display: -webkit-box;
+    display: flex;
+    position: relative
+}
+
+.js-level__levels {
+    width: 100%;
+    height: 30px;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    background: url(../img/js-level/scale.png) no-repeat;
+    border: none;
+    background-size: contain
+}
+
+.js-level__level1 {
+    width: 150px
+}
+
+.js-level__level {
+    margin-top: 30px;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-align: start;
+    align-items: flex-start
+}
+
+.js-level__radio {
+    -webkit-appearance: none
+}
+
+.js-level__label {
+    cursor: pointer;
+    color: #2f1b15;
+    font-family: "PT Sans";
+    font-size: 13px;
+    font-weight: 700
+}
+
+.js-level__label::after {
+    opacity: 0;
+    -webkit-transition: opacity 1s linear;
+    transition: opacity 1s linear;
+    content: url(../img/js-level/pointer.png);
+    position: absolute;
+    top: -20px
+}
+
+.js-level__label1::after {
+    left: -7px
+}
+
+.js-level__label2::after {
+    left: 145px
+}
+
+.js-level__label3::after {
+    left: 376px
+}
+
+.js-level__label4::after {
+    right: -6px
+}
+
+.js-level__level2 {
+    width: 222px
+}
+
+.js-level__level3 {
+    width: 260px
+}
+
+.js-level__radio:checked+.js-level__label::after {
+    opacity: 1
+}
+
+.about-me {
+    margin-bottom: 48px
+}
+
+.about-me__title {
+    color: #2f1b15;
+    font-family: "PT Sans";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 49.83px
+}
+
+.about-me__text {
+    color: #3d3d3d;
+    font-family: "PT Sans";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    margin-bottom: 47px
+}
+
+.about-me__field {
+    width: 100%;
+    color: #231f20;
+    font-family: "Courier New PSMT";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 43px;
+    background-image: url(../img/personal-info/input-underline.png);
+    background-repeat: repeat-y;
+    background-position: -20px 107px;
+    background-size: 830px 43px;
+    margin-bottom: 12px
+}
+
+.plans {
+    width: 100%;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    margin-bottom: 88px
+}
+
+.plans__title {
+    width: 100%;
+    color: #2f1b15;
+    font-family: "PT Sans";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 40px
+}
+
+.plans__text {
+    width: 100%;
+    color: #3d3d3d;
+    font-family: "PT Sans";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    margin-bottom: 25px
+}
+
+.plans__radio {
+    color: indigo;
+    -webkit-appearance: none
+}
+
+.plans__items {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    align-items: center
+}
+
+.plans__item {
+    position: relative;
+    padding-left: 33px;
+    color: #000;
+    font-family: "PT Sans";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+    margin-left: 22px
+}
+
+.plans__item:first-child {
+    margin-left: 0
+}
+
+.plans__label {
+    cursor: pointer
+}
+
+.plans__radio::before {
+    content: url(../img/plans/uncheked.png);
+    width: 41px;
+    height: 45px;
+    position: absolute;
+    top: -9px;
+    left: -7px
+}
+
+.plans__radio:checked::before {
+    content: url(../img/plans/checked.png)
+}
+
+* {
+    box-sizing: border-box
+}
+
+body {
+    margin: 0;
+    background-color: #887e7e;
+    font-family: "PT Sans";
+    font-size: 21px
+}
+
+.site-container {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 50px 50px 60px 110px;
+    background-image: url(../img/site-bg.png)
+}
+
+.site-inner {
+    padding: 0 50px 0 0
+}
+
+@media screen and (min-width:36rem) {
+    .container {
+        max-width: 31.875rem
+    }
+}
+
+@media screen and (min-width:48rem) {
+    .container {
+        max-width: 43.125rem
+    }
+}
+
+@media screen and (min-width:62rem) {
+    .container {
+        max-width: 58.125rem
+    }
+}
+
+@media screen and (min-width:75rem) {
+    .container {
+        max-width: 69.375rem
+    }
+}
