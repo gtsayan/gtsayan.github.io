@@ -1,0 +1,1417 @@
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%
+}
+
+details,
+main {
+    display: block
+}
+
+h1 {
+    font-size: 2em
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible
+}
+
+code,
+kbd,
+pre,
+samp {
+    font-family: monospace, monospace;
+    font-size: 1em
+}
+
+a {
+    background-color: transparent
+}
+
+abbr[title] {
+    border-bottom: none;
+    text-decoration: underline;
+    -webkit-text-decoration: underline dotted;
+    text-decoration: underline dotted
+}
+
+b,
+strong {
+    font-weight: bolder
+}
+
+small {
+    font-size: 80%
+}
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+}
+
+sub {
+    bottom: -.25em
+}
+
+sup {
+    top: -.5em
+}
+
+img {
+    border-style: none
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0
+}
+
+button,
+input {
+    overflow: visible
+}
+
+button,
+select {
+    text-transform: none
+}
+
+[type=button],
+[type=reset],
+[type=submit],
+button {
+    -webkit-appearance: button
+}
+
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner,
+button::-moz-focus-inner {
+    border-style: none;
+    padding: 0
+}
+
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring,
+button:-moz-focusring {
+    outline: ButtonText dotted 1px
+}
+
+fieldset {
+    padding: .35em .75em .625em
+}
+
+legend {
+    box-sizing: border-box;
+    color: inherit;
+    display: table;
+    max-width: 100%;
+    padding: 0;
+    white-space: normal
+}
+
+progress {
+    vertical-align: baseline
+}
+
+textarea {
+    overflow: auto
+}
+
+[type=checkbox],
+[type=radio] {
+    box-sizing: border-box;
+    padding: 0
+}
+
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+    height: auto
+}
+
+[type=search] {
+    -webkit-appearance: textfield;
+    outline-offset: -2px
+}
+
+[type=search]::-webkit-search-decoration {
+    -webkit-appearance: none
+}
+
+::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    font: inherit
+}
+
+summary {
+    display: list-item
+}
+
+[hidden],
+template {
+    display: none
+}
+
+.owl-carousel,
+.owl-carousel .owl-item {
+    -webkit-tap-highlight-color: transparent;
+    position: relative
+}
+
+.owl-carousel {
+    display: none;
+    width: 100%;
+    z-index: 1
+}
+
+.owl-carousel .owl-stage {
+    position: relative;
+    touch-action: manipulation;
+    -moz-backface-visibility: hidden
+}
+
+.owl-carousel .owl-stage:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0
+}
+
+.owl-carousel .owl-stage-outer {
+    position: relative;
+    overflow: hidden;
+    -webkit-transform: translate3d(0, 0, 0)
+}
+
+.owl-carousel .owl-item,
+.owl-carousel .owl-wrapper {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0)
+}
+
+.owl-carousel .owl-item {
+    min-height: 1px;
+    float: left;
+    -webkit-backface-visibility: hidden;
+    -webkit-touch-callout: none
+}
+
+.owl-carousel .owl-item img {
+    display: block;
+    width: 100%
+}
+
+.owl-carousel .owl-dots.disabled,
+.owl-carousel .owl-nav.disabled {
+    display: none
+}
+
+.no-js .owl-carousel,
+.owl-carousel.owl-loaded {
+    display: block
+}
+
+.owl-carousel .owl-dot,
+.owl-carousel .owl-nav .owl-next,
+.owl-carousel .owl-nav .owl-prev {
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel button.owl-dot {
+    background: 0 0;
+    color: inherit;
+    border: none;
+    padding: 0 !important;
+    font: inherit
+}
+
+.owl-carousel.owl-loading {
+    opacity: 0;
+    display: block
+}
+
+.owl-carousel.owl-hidden {
+    opacity: 0
+}
+
+.owl-carousel.owl-refresh .owl-item {
+    visibility: hidden
+}
+
+.owl-carousel.owl-drag .owl-item {
+    touch-action: pan-y;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.owl-carousel.owl-grab {
+    cursor: move;
+    cursor: -webkit-grab;
+    cursor: grab
+}
+
+.owl-carousel.owl-rtl {
+    direction: rtl
+}
+
+.owl-carousel.owl-rtl .owl-item {
+    float: right
+}
+
+.owl-carousel .animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both
+}
+
+.owl-carousel .owl-animated-in {
+    z-index: 0
+}
+
+.owl-carousel .owl-animated-out {
+    z-index: 1
+}
+
+.owl-carousel .fadeOut {
+    -webkit-animation-name: fadeOut;
+    animation-name: fadeOut
+}
+
+@-webkit-keyframes fadeOut {
+    0% {
+        opacity: 1
+    }
+
+    100% {
+        opacity: 0
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1
+    }
+
+    100% {
+        opacity: 0
+    }
+}
+
+.owl-height {
+    -webkit-transition: height .5s ease-in-out;
+    transition: height .5s ease-in-out
+}
+
+.owl-carousel .owl-item .owl-lazy {
+    opacity: 0;
+    -webkit-transition: opacity .4s;
+    transition: opacity .4s
+}
+
+.owl-carousel .owl-item .owl-lazy:not([src]),
+.owl-carousel .owl-item .owl-lazy[src^=""] {
+    max-height: 0
+}
+
+.owl-carousel .owl-item img.owl-lazy {
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d
+}
+
+.owl-carousel .owl-video-wrapper {
+    position: relative;
+    height: 100%;
+    background: #000
+}
+
+.owl-carousel .owl-video-play-icon {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    left: 50%;
+    top: 50%;
+    margin-left: -40px;
+    margin-top: -40px;
+    background: url(owl.video.play.png) no-repeat;
+    cursor: pointer;
+    z-index: 1;
+    -webkit-backface-visibility: hidden;
+    -webkit-transition: -webkit-transform .1s;
+    transition: transform .1s;
+    transition: transform .1s, -webkit-transform .1s
+}
+
+.owl-carousel .owl-video-play-icon:hover {
+    -webkit-transform: scale(1.3, 1.3);
+    transform: scale(1.3, 1.3)
+}
+
+.owl-carousel .owl-video-playing .owl-video-play-icon,
+.owl-carousel .owl-video-playing .owl-video-tn {
+    display: none
+}
+
+.owl-carousel .owl-video-tn {
+    opacity: 0;
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    -webkit-transition: opacity .4s;
+    transition: opacity .4s
+}
+
+.owl-carousel .owl-video-frame {
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    width: 100%
+}
+
+.owl-theme .owl-dots,
+.owl-theme .owl-nav {
+    text-align: center;
+    -webkit-tap-highlight-color: transparent
+}
+
+.owl-theme .owl-nav {
+    margin-top: 10px
+}
+
+.owl-theme .owl-nav [class*=owl-] {
+    color: #fff;
+    font-size: 14px;
+    margin: 5px;
+    padding: 4px 7px;
+    background: #d6d6d6;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 3px
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: #869791;
+    color: #fff;
+    text-decoration: none
+}
+
+.owl-theme .owl-nav .disabled {
+    opacity: .5;
+    cursor: default
+}
+
+.owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 10px
+}
+
+.owl-theme .owl-dots .owl-dot {
+    display: inline-block;
+    zoom: 1
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    width: 10px;
+    height: 10px;
+    margin: 5px 7px;
+    background: #d6d6d6;
+    display: block;
+    -webkit-backface-visibility: visible;
+    -webkit-transition: opacity .2s;
+    transition: opacity .2s;
+    border-radius: 30px
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #869791
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+    margin: 0;
+    padding: 0
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-left: .9375rem;
+    padding-right: .9375rem
+}
+
+.header {
+    width: 100%;
+    padding: 30px 0;
+    top: 0
+}
+
+.header-inner {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0 20px
+}
+
+.header__logo {
+    width: 160px;
+    height: 50px;
+    position: relative
+}
+
+.header__logo::before {
+    content: url(../img/header/BIKE_ICON.png);
+    position: absolute;
+    left: 65px
+}
+
+.header__logo::after {
+    content: url(../img/header/THE_BIKE_SHOP.svg);
+    position: absolute;
+    bottom: -4px
+}
+
+.header__menu-list {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative
+}
+
+.header__menu-sublist {
+    display: none;
+    width: 221px;
+    position: absolute;
+    left: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-align: start;
+    align-items: flex-start;
+    padding: 13px 15px;
+    background-color: #fcff19;
+    z-index: 10;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px
+}
+
+.header__menu-sublist:hover {
+    display: -webkit-box;
+    display: flex
+}
+
+.header__menu-item {
+    position: relative;
+    padding: 13px 15px;
+    background-color: transparent
+}
+
+.header__menu-item:hover .header__menu-link {
+    color: #000
+}
+
+.header__menu-item:hover {
+    background-color: #fcff19;
+    padding: 13px 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px
+}
+
+.header__menu-item:hover .header__menu-sublist {
+    display: -webkit-box;
+    display: flex
+}
+
+.header__menu-link {
+    white-space: nowrap;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 32.49px;
+    text-transform: uppercase;
+    letter-spacing: .07px
+}
+
+.header__basket {
+    width: 26px;
+    height: 26px;
+    background: url(../img/header/Basket_icon.svg) no-repeat;
+    background-size: contain;
+    margin-left: 18px
+}
+
+.burger-shower {
+    display: none
+}
+
+.footer {
+    width: 100%;
+    background-color: #fcff19
+}
+
+.footer-inner {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0 20px;
+    position: relative
+}
+
+.footer__logo {
+    width: 160px;
+    height: 50px;
+    position: relative;
+    margin: 17px 0
+}
+
+.footer__logo::before {
+    content: url(../img/footer/BIKE_ICON-black2.png);
+    position: absolute;
+    left: 65px
+}
+
+.footer__logo::after {
+    content: url(../img/footer/THE_BIKE_SHOP-black.svg);
+    position: absolute;
+    bottom: -4px
+}
+
+.footer__menu-list {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative
+}
+
+.footer__menu-sublist {
+    display: none;
+    width: 221px;
+    position: absolute;
+    left: 0;
+    bottom: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-align: start;
+    align-items: flex-start;
+    padding: 13px 15px;
+    background-color: #000;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px
+}
+
+.footer__menu-sublist:hover {
+    display: -webkit-box;
+    display: flex
+}
+
+.footer__menu-item {
+    position: relative;
+    padding: 13px 15px;
+    background-color: transparent
+}
+
+.footer__menu-item:hover .footer__menu-link {
+    color: #fcff19
+}
+
+.footer__menu-item:hover {
+    background-color: #000;
+    padding: 13px 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px
+}
+
+.footer__menu-item:hover .footer__menu-sublist {
+    display: -webkit-box;
+    display: flex
+}
+
+.footer__menu-link {
+    white-space: nowrap;
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 32.49px;
+    text-transform: uppercase;
+    letter-spacing: .07px
+}
+
+ul {
+    list-style-type: none
+}
+
+.f-burger-shower {
+    display: none
+}
+
+.intro {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../img/intro/intro-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative
+}
+
+.intro__inner {
+    max-width: 524px;
+    display: -webkit-box;
+    display: flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-bottom: 60px
+}
+
+.intro__title {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .25px
+}
+
+.intro__text {
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 100;
+    text-align: center;
+    margin-bottom: 33px;
+    color: #fff
+}
+
+.intro__text span {
+    color: #fcff19
+}
+
+.intro__footer {
+    width: 100%;
+    text-align: center
+}
+
+.intro__go-down {
+    width: 66px;
+    height: 77px;
+    background-image: url(../img/intro/go-down-grey.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 33px;
+    z-index: 1
+}
+
+.intro__go-down::after {
+    content: "";
+    width: 100%;
+    height: 50%;
+    background-image: url(../img/intro/go-down-yellow.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    z-index: 10;
+    top: 0;
+    -webkit-transition: height .5s linear;
+    transition: height .5s linear
+}
+
+.intro__go-down:hover::after {
+    height: 78px
+}
+
+.btn {
+    width: 124px;
+    height: 43px;
+    padding: 18px 24px;
+    outline: 0;
+    border: none;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #fcff19;
+    letter-spacing: .06px;
+    background-color: #000
+}
+
+.categories {
+    width: 100%;
+    background: url(../img/CATEGORIES/CATEGORIES_BG_IMAGE.jpg) center no-repeat;
+    background-size: cover;
+    padding: 75px 0 170px
+}
+
+.categories__inner {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center
+}
+
+.title {
+    color: #000;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 32.49px;
+    text-transform: uppercase;
+    letter-spacing: .14px;
+    margin-bottom: 75px
+}
+
+.categories__items {
+    width: 100%;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    flex-wrap: wrap
+}
+
+.categories__item1 {
+    background: url(../img/CATEGORIES/CATEGORIES_PHOTO_01.png) no-repeat
+}
+
+.categories__item2 {
+    background: url(../img/CATEGORIES/CATEGORIES_PHOTO_02.png) no-repeat
+}
+
+.categories__item3 {
+    background: url(../img/CATEGORIES/CATEGORIES_PHOTO_03.png) no-repeat
+}
+
+.categories__item {
+    width: 100%;
+    max-width: 346px;
+    height: 288px;
+    margin: 10px;
+    background-position: center;
+    background-size: contain;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative
+}
+
+.categories__item::after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 288px 0 0 346px;
+    border-color: transparent transparent transparent #fcff19;
+    opacity: 0;
+    position: absolute;
+    -webkit-transition: opacity .3s linear;
+    transition: opacity .3s linear
+}
+
+.categories__item:hover::after {
+    opacity: .17
+}
+
+.categories__item:hover .categories__btn {
+    opacity: 1
+}
+
+.categories__item-title {
+    color: #fcff19;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 32.49px;
+    text-transform: uppercase;
+    letter-spacing: .07px
+}
+
+.categories__item-text {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 32.49px;
+    letter-spacing: .08px;
+    margin-bottom: 24px
+}
+
+.categories__btn {
+    opacity: 0;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 32.49px;
+    text-transform: uppercase;
+    letter-spacing: .06px;
+    display: -webkit-box;
+    display: flex;
+    padding: 18px 20px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: transparent;
+    border: 3px solid #fff;
+    -webkit-transition: opacity .3s linear;
+    transition: opacity .3s linear;
+    position: relative;
+    z-index: 100
+}
+
+.popular-bikes {
+    width: 100%;
+    padding: 75px 25px 35px;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-bottom: 35px
+}
+
+.popular-bikes__items {
+    width: 100%;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center
+}
+
+.popular-bikes__item {
+    width: 100%;
+    max-width: 491px;
+    margin: 0 auto
+}
+
+.popular-bikes__foto {
+    width: 490px;
+    height: 391px;
+    margin: 0 auto
+}
+
+.popular-bikes__foto1 {
+    background: url(../img/popular-bikes/ITEM_PHOTO1.png) center/contain no-repeat
+}
+
+.popular-bikes__foto2 {
+    background: url(../img/popular-bikes/ITEM_PHOTO2.png) center/contain no-repeat
+}
+
+.popular-bikes__foto3 {
+    background: url(../img/popular-bikes/ITEM_PHOTO3.png) center/contain no-repeat
+}
+
+.popular-bikes__controls {
+    width: 100%;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center
+}
+
+.popular-bikes__info {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column
+}
+
+.popular-bikes__model {
+    color: #000;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .07px
+}
+
+.popular-bikes__prise {
+    font-size: 15px;
+    font-weight: 300
+}
+
+.popular-bikes__inputs {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between
+}
+
+.popular-bikes__options {
+    width: 144px;
+    height: 43px;
+    background: url(../img/popular-bikes/BUTTON_bg.svg) no-repeat;
+    -webkit-appearance: none;
+    border: none;
+    padding: 15px 20px;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000;
+    letter-spacing: .06px;
+    cursor: pointer;
+    outline: 0;
+    margin-right: 9px
+}
+
+.popular-bikes__btn {
+    width: 94px;
+    height: 43px;
+    border-radius: 10px;
+    background-color: #b7b7b7;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .06px;
+    text-decoration: none;
+    -webkit-transition: .4s linear;
+    transition: .4s linear
+}
+
+.popular-bikes__btn:hover {
+    background-color: #000;
+    color: #fcff19
+}
+
+.contact-us {
+    width: 100%;
+    background: url(../img/contact-us/CONTACT_US_BG.jpg) center no-repeat;
+    background-size: cover;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 67px 20px 84px
+}
+
+.contact-us__subtitle {
+    color: #000;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 32.49px;
+    letter-spacing: .07px;
+    margin-top: -17px;
+    margin-bottom: 47px
+}
+
+.contact-us__form {
+    margin: 0 auto;
+    max-width: 450px;
+    width: 100%;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    align-items: center
+}
+
+.contact-us__firs-row {
+    display: -webkit-box;
+    display: flex;
+    width: 100%
+}
+
+.contact-us__form-field {
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #dadada;
+    background-color: #fff;
+    padding: 17px 19px;
+    color: grey;
+    font-size: 12px;
+    font-style: italic;
+    text-transform: uppercase;
+    letter-spacing: .06px;
+    margin-bottom: 20px
+}
+
+.contact-us__surname {
+    margin-left: 22px
+}
+
+.contact-us__btn {
+    width: 100%;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 700;
+    background-color: #b7b7b7;
+    color: #fff;
+    text-decoration: none
+}
+
+.contact-us__btn:hover {
+    background-color: #000;
+    color: #fcff19
+}
+
+* {
+    box-sizing: border-box
+}
+
+body {
+    margin: 0;
+    background-color: #fff;
+    font-family: Roboto, sans-serif
+}
+
+.site-container {
+    width: 100%;
+    max-width: 1136px;
+    margin: 0 auto
+}
+
+@media screen and (min-width:36rem) {
+    .container {
+        max-width: 31.875rem
+    }
+}
+
+@media screen and (min-width:48rem) {
+    .container {
+        max-width: 43.125rem
+    }
+}
+
+@media screen and (min-width:62rem) {
+    .container {
+        max-width: 58.125rem
+    }
+}
+
+@media screen and (min-width:75rem) {
+    .container {
+        max-width: 69.375rem
+    }
+}
+
+@media (max-width:760px) {
+    .intro__go-down {
+        width: 33px;
+        height: 38.5px;
+        margin: 10px
+    }
+
+    .intro__inner {
+        -webkit-box-pack: space-evenly;
+        justify-content: space-evenly;
+        -webkit-box-flex: 1;
+        flex-grow: 1
+    }
+}
+
+@media (max-width:660px) {
+    .header-inner {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        flex-direction: column
+    }
+}
+
+@media (max-width:600px) {
+    .footer__nav {
+        bottom: 95px;
+        position: absolute;
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);
+        -webkit-transition: -webkit-transform .3s linear;
+        transition: transform .3s linear, -webkit-transform .3s linear
+    }
+
+    .footer__menu-list {
+        flex-wrap: wrap;
+        background-color: #fcff19;
+        border-radius: 10px;
+        border: 1px solid #000
+    }
+
+    .f-burger-shower:checked~.footer__nav {
+        display: -webkit-box;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        flex-direction: column;
+        position: absolute;
+        right: 5px;
+        -webkit-box-align: end;
+        align-items: flex-end;
+        background-color: transparent;
+        padding: 0 18px;
+        width: auto;
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1)
+    }
+
+    .f-hamburger {
+        display: -webkit-box;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        flex-direction: column;
+        -webkit-box-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        align-items: center;
+        width: 30px;
+        height: 30px;
+        line-height: .1em;
+        margin-right: 20px;
+        padding: 0 .4em .4em;
+        cursor: pointer;
+        position: absolute;
+        right: 1px
+    }
+
+    .f-burger-item {
+        width: 30px;
+        height: 3px;
+        border: 0;
+        background: #000
+    }
+}
+
+@media (max-width:568px) {
+    .header {
+        padding: 10px 0
+    }
+
+    .intro__title {
+        width: 100%;
+        color: #fff;
+        font-size: 35px;
+        font-weight: 700;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 0
+    }
+
+    .intro__text {
+        margin: 0 0 20px;
+        font-size: 20px;
+        padding: 0 10px
+    }
+}
+
+@media (max-width:560px) {
+    .contact-us {
+        text-align: center
+    }
+
+    .contact-us__firs-row {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        flex-direction: column
+    }
+
+    .contact-us__surname {
+        margin-left: 0
+    }
+}
+
+@media (max-width:520px) {
+    .popular-bikes__foto {
+        width: 310px;
+        height: 250px
+    }
+}
+
+@media (max-width:500px) {
+    .header__logo {
+        -webkit-box-flex: 1;
+        flex-grow: 1
+    }
+
+    .header-inner {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        flex-direction: row;
+        -webkit-box-align: end;
+        align-items: flex-end
+    }
+
+    .header__menu-list {
+        flex-wrap: wrap;
+        background-color: #33325a;
+        border-radius: 10px;
+        bottom: 80px
+    }
+
+    .header__basket {
+        margin: 13px 15px
+    }
+
+    .header__nav {
+        display: none
+    }
+
+    .burger-shower:checked~.header__nav {
+        display: -webkit-box;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        flex-direction: column;
+        position: absolute;
+        right: 5px;
+        top: 160px;
+        -webkit-box-align: end;
+        align-items: flex-end;
+        background-color: transparent;
+        padding: 0 18px;
+        width: auto
+    }
+
+    .hamburger {
+        display: -webkit-box;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        flex-direction: column;
+        -webkit-box-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        align-items: center;
+        width: 30px;
+        height: 30px;
+        line-height: .1em;
+        margin-right: 20px;
+        padding: 0 .4em .4em;
+        cursor: pointer
+    }
+
+    .burger-item {
+        width: 30px;
+        height: 3px;
+        border: 0;
+        background: #fff
+    }
+}
+
+@media (max-width:400px) {
+    .title {
+        margin-bottom: 20px
+    }
+
+    .popular-bikes__controls {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        flex-direction: column;
+        text-align: center
+    }
+
+    .popular-bikes__info {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        flex-direction: row;
+        margin-bottom: 20px
+    }
+
+    .popular-bikes {
+        padding: 75px 0
+    }
+
+    .popular-bikes__model {
+        margin-right: 20px
+    }
+}
