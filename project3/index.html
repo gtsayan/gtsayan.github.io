@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>ВЕЛОМАГАЗИН</title>
+    <title>Velo Shop</title>
     <meta name="theme-color" content="#fff">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="viewport"
@@ -12,28 +12,23 @@
     <link rel="shortcut icon" href="./img/favicons/favicon.ico" type="image/x-icon">
     <link rel="icon" sizes="16x16" href="./img/favicons/favicon-16x16.png" type="image/png">
     <link rel="icon" sizes="32x32" href="./img/favicons/favicon-32x32.png" type="image/png">
-    <link rel="apple-touch-icon-precomposed" href="../img/favicons/apple-touch-icon-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="./img/favicons/apple-touch-icon-precomposed.png">
     <link rel="apple-touch-icon" href="./img/favicons/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="57x57" href="../img/favicons/apple-touch-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="../img/favicons/apple-touch-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="../img/favicons/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="../img/favicons/apple-touch-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="../img/favicons/apple-touch-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="../img/favicons/apple-touch-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="../img/favicons/apple-touch-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="../img/favicons/apple-touch-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="167x167" href="../img/favicons/apple-touch-icon-167x167.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="../img/favicons/apple-touch-icon-180x180.png">
-    <link rel="apple-touch-icon" sizes="1024x1024" href="../img/favicons/apple-touch-icon-1024x1024.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="./img/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./img/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./img/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./img/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./img/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./img/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./img/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./img/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="./img/favicons/apple-touch-icon-167x167.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon-180x180.png">
+    <link rel="apple-touch-icon" sizes="1024x1024" href="./img/favicons/apple-touch-icon-1024x1024.png">
     <link rel="stylesheet" href="./styles/main.min.css">
+
+
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700&display=swap" rel="stylesheet">
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <script src="./js/main.min.js"></script>
-    <script src="./js/vendor.js"></script>
-    <script src="./js/script.js"></script>
-
 
 </head>
 
@@ -175,19 +170,19 @@
         <div class="title">CONTACT US</div>
         <div class="contact-us__subtitle">Please contact us for all inquiries and purchase options.</div>
 
-        <div class="contact-us__form">
+        <form action="" class="contact-us__form">
 
             <div class="contact-us__firs-row">
-                <input type="text" class="contact-us__name contact-us__form-field" placeholder="Full name">
-                <input type="text" class="contact-us__surname contact-us__form-field" placeholder="surname">
+                <input type="text" class="contact-us__name contact-us__form-field" required placeholder="Full name">
+                <input type="text" class="contact-us__surname contact-us__form-field" required placeholder="surname">
             </div>
-            <input type="email" class="contact-us__email contact-us__form-field" placeholder="USER@DOMAIN.COM">
+            <input type="email" class="contact-us__email contact-us__form-field" required placeholder="USER@DOMAIN.COM">
 
-            <textarea class="contact-us__message contact-us__form-field" placeholder="MESSAGE" name="" id="" cols="30"
-                rows="5"></textarea>
-            <a href="" class="contact-us__btn btn">send</a>
+            <textarea class="contact-us__message contact-us__form-field" required placeholder="MESSAGE" name="" id=""
+                cols="30" rows="5"></textarea>
 
-        </div>
+            <input type="submit" class="contact-us__btn btn" value="send">
+        </form>
 
     </div> <!-- contact-us -->
     <div class="footer">
@@ -229,9 +224,9 @@
 
 
 
-    <script src="../js/main.min.js"></script>
-    <script src="../js/vendor.min.js"></script>
-    <script src="../js/script.min.js"></script>
+    <script src="./js/main.min.js"></script>
+    <script src="./js/vendor.min.js"></script>
+    <script src="./js/script.min.js"></script>
 </body>
 
 </html>
