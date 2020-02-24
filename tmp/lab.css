@@ -1,0 +1,70 @@
+body {
+
+    background: url('https://i.ytimg.com/vi/a6bgWVWRTZI/maxresdefault_live.jpg') center no-repeat;
+    background-size: cover;
+    /* width: 100vw;
+    height: 100vh; */
+}
+
+.site-container {
+    max-width: 90vw;
+    width: 100%;
+    height: 90vh;
+    margin: 0px auto;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+.krestiki_noliki {
+    width: 306px;
+    margin: 0 auto;
+}
+
+.krestiki_noliki .block {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #394433;
+    cursor: pointer;
+    float: left;
+    text-align: center;
+    font-size: 100px;
+    line-height: 94px;
+    background-color: #1A1F18;
+    color: #394433;
+}
+
+.btns {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-evenly;
+    /* margin-left: 10px; */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-bottom: 10px;
+    z-index: 100;
+}
+
+.btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background: url(btn.png) no-repeat center /cover;
+    padding: 0;
+    margin: 0;
+    border: 0px;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn:active {
+    background: url(act-btn.png) no-repeat center /cover;
+
+}
